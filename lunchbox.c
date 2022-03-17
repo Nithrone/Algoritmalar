@@ -16,7 +16,7 @@ void BubbleSort(int arr[],int size){
 	for (i=0 ; i<size ; i++){ 
 	printf("The number %d is: %i\n", i+1, arr[i]);
 	}
-	printf("\n\nKARISIK SIRALI BUBBLE SORT");
+	printf("\n\nBUBBLE SORT");
 }
 
 void SelectionSort(int arr[],int size){
@@ -56,7 +56,7 @@ void InsertionSort(int arr[],int size){
 	for (i=0 ; i<size ; i++){ 
 		printf("The number %d is: %i\n", i+1, arr[i]);
 	}
-	printf("\n\nKARISIK SIRALI INSERTION SORT");
+	printf("\n\nINSERTION SORT");
 }
 
 void ShellSort(int arr[], int size){
@@ -81,7 +81,7 @@ void ShellSort(int arr[], int size){
     for (i=0 ; i<size ; i++){ 
 		printf("The number %d is: %i\n", i+1, arr[i]);
 	}
-	printf("\n\nKARISIK SIRALI SHELL SORT");
+	printf("\n\nSHELL SORT");
 }
 
 int main(void){
