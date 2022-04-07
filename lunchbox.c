@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 
+/* BU KOD ''INPUT.TXT'' ISIMLI, ICERISINDE KARISIK DUZENDE TAM SAYILARIN OLDU DOSYADAKI 6000 ADET VERIYI BUBBLE SORT, SELECTION SORT,
+INSERTION SORT VE SHELL SORT SIRALAMA ALGORITMALARINA GORE KUCUKTEN BUYUGE SIRALAYABILMEKTEDIR
+*/
 void BubbleSort(int arr[],int size){
 	int i,j;
 	
@@ -86,7 +89,7 @@ void ShellSort(int arr[], int size){
 
 int main(void){
 	
-	double time_spent = 0.0;
+	double time_spent = 0.0; // PROGRAMIN CALISMA SURESINI HESAPLAMAK ICIN 92. 93. 111. VE 112. SIRADAKI KODLAR EKLENMISTIR
 	clock_t begin = clock();
 	
     FILE *file = fopen("input.txt", "r");
